@@ -42,7 +42,7 @@ const Home = (props: any) => {
         setModalData({
           title: "BuyNow",
           message:
-            "You have successfully Saved Loyality Point, Kindly Check your latest Points",
+            "You have successfully Saved Loyalty Point, Kindly Check your latest Points",
         });
         setIsOpen(true);
         setLoggedUser({
@@ -131,7 +131,7 @@ const Home = (props: any) => {
                 <tr className={styles.th}>
                   <th>UserId</th>
                   <th>User Name</th>
-                  <th>Loyality Points</th>
+                  <th>Loyalty Points</th>
                 </tr>
               </thead>
               <tbody>{tableRows}</tbody>
